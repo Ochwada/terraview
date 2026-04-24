@@ -1,4 +1,4 @@
-# terraview
+# Terraview
 
 A web app for exploring Sentinel-2 satellite imagery over time.
 Pick a location, see recent cloud-free imagery, compute NDVI, compare dates.
@@ -12,18 +12,17 @@ Pick a location, see recent cloud-free imagery, compute NDVI, compare dates.
 - **Imagery source:** Sentinel-2 L2A via AWS Open Data
 
 ## Status
-
 🚧 In development — Phase 0 (project scaffolding).
 
 ## Repo layout
-"
 
+```bash
 terraview/
 ├── backend/     Django project
 ├── frontend/    Next.js project
 ├── docker/      docker-compose for Postgres/PostGIS
 └── docs/        architecture notes, decisions
-
 ## Getting started
 
+```
 See `docs/SETUP.md` (coming soon).
